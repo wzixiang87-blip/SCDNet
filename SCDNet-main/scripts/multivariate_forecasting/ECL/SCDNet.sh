@@ -26,8 +26,8 @@ python -u run.py \
   --patience 3 \
   --itr 1 \
   --n_clusters 64 \
-  --top_k 16 \
-  --d_scd 64 \
+  --top_k 4 \
+  --d_scd 16 \
     --cycle 168
 
 
@@ -56,9 +56,9 @@ python -u run.py \
   --learning_rate 0.005 \
   --train_epochs 10 \
   --cycle 168 \
-  --n_clusters 150 \
+  --n_clusters 64 \
   --top_k 4 \
-  --d_scd 64 \
+  --d_scd 16 \
   --itr 1
 
 
@@ -87,9 +87,9 @@ python -u run.py \
   --learning_rate 0.005 \
   --train_epochs 10 \
   --cycle 168 \
-  --n_clusters 32 \
+  --n_clusters 64 \
   --top_k 4 \
-  --d_scd 64 \
+  --d_scd 16 \
   --itr 1
 
 
@@ -120,7 +120,7 @@ python -u run.py \
   --learning_rate 0.001 \
   --train_epochs 10 \
   --cycle 168 \
-  --n_clusters 32 \
-  --top_k 3 \
-  --d_scd 64 \
+  --n_clusters 64 \
+  --top_k 4 \
+  --d_scd 16 \
   --itr 1
