@@ -23,7 +23,7 @@ python -u run.py \
 --batch_size 32 \
 --itr 1 \
 --cycle 144 \
---n_clusters 12 \
+--n_clusters 16 \
 --top_k 4 \
 --patience 3
 
@@ -70,7 +70,7 @@ M
 --cycle
 144
 --n_clusters
-18
+16
 --top_k
 3
 --patience
@@ -97,7 +97,7 @@ python -u run.py \
 --batch_size 32
 --itr 1
 --cycle 144
---n_clusters 18
+--n_clusters 16
 --top_k 3
 --patience 3
 
@@ -124,6 +124,6 @@ python -u run.py \
 --itr 1 \
 --cycle 144 \
 --dropout 0.2 \
---n_clusters 18 \
---top_k 6 \
+--n_clusters 16 \
+--top_k 4 \
 --patience 3
